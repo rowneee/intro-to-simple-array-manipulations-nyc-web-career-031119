@@ -42,4 +42,4 @@ end
 
 def using_delete(array, string)
  return array = array.delete!
-nd
+end
