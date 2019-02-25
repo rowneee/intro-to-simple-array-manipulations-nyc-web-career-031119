@@ -24,9 +24,9 @@ end
 
 # shift_with_args(2)
 
-# def using_concat(array1, array2)
-#  return new_array = "#{array1}" + "#{array2}"
-#end
+def using_concat(array1, array2)
+  return "#{array1}" += "#{array2}"
+end
 
 # def using_insert(array, element)
 #   return array = array.insert(4, element)
